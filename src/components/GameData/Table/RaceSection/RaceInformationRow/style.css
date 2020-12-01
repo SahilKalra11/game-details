@@ -1,0 +1,14 @@
+
+.raceInformation {
+  display: flex;
+  color: #fff;
+  padding: 8px;
+  background-color: #6abd36;
+  border-radius: 3px;
+
+  
+}
+
+.raceInformation span {
+    flex: 1;
+  }

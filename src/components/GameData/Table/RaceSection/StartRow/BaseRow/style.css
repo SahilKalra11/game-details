@@ -1,0 +1,13 @@
+
+.baseRow {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #eee;;
+}
+.baseRow span {
+    flex: 1;
+  }
+  .baseRow:hover{
+    cursor: pointer;
+    
+  }

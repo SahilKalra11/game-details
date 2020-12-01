@@ -1,0 +1,26 @@
+
+.startRow {
+  display: flex;
+  flex-direction: column;
+  transition: 150ms;
+  cursor: pointer;
+  border: 1px solid transparent;
+
+}
+.startRow .expanded{
+    border: 1px solid #142433;
+    border-radius: 3px;
+}
+.startRow:hover{
+    background-color: #eee;
+}
+.startRow:nth-child(even){
+    background-color: #f7f7f7;
+}
+.startRow:nth-child(even):hover{
+    background-color: #d6d6d6;
+}
+
+.posed {
+  overflow: hidden;
+}

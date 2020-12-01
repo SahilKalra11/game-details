@@ -1,0 +1,9 @@
+
+.expandableContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 3px;
+  line-height: 1.6;
+}
